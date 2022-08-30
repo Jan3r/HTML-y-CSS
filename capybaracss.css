@@ -1,0 +1,81 @@
+:root {
+    font-family:'Josefin Sans', sans-serif;
+    --white: #fff;
+    --brown: #FEF5E7;
+    --green: #82E0AA;
+    --black: #000;
+    --teal: #A0FFE6;
+}
+
+body{
+    background-color: var(--brown);
+    /*background-image: url(https://c.tenor.com/1kZ2j73pGDUAAAAd/capybara-ok-he-pull-up.gif);
+    background-size: 650px 350px;*/
+}
+
+#Capybara-in{
+    display: flex;
+    justify-content: center;
+}
+
+#capyara-logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+#Capybara-Main{    
+    display: flex;
+    flex-direction: center;    
+    margin-top: 20px;
+    align-items: stretch;
+    border: 5px solid var(--green);
+    justify-content:center;
+    flex-direction:row;
+}
+
+#Capybara-Container{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: stretch;
+    justify-content: center;    
+    border: 3px solid var(--black);
+    width: 40%;
+}
+
+#Capybara-Container2{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction:column-reverse;
+    align-items: stretch;
+    justify-content: center;    
+    border: 3px solid var(--black);
+    width: 40%;
+}
+
+#Capybara-Imagen{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;  
+}
+
+#item {
+    border: 3px solid var(--black);
+    margin: 2px;
+    border-radius: 10px;
+    min-width: 50px;
+    min-height: 50px;
+  }
+
+#item:nth-child(1) {
+    text-align: center;
+}
